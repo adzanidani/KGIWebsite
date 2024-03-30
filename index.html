@@ -6,10 +6,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- <meta name="author" content="Untree.co" /> -->
+
     <link href="logo/KGIShortcut.png" rel="shortcut icon" />
 
-    <title>Kastara Group Indonesia &mdash; Agricultural Trading Company</title>
+    <title>
+      Kastara Group Indonesia &mdash; Agricultural and Charcoal Trading Company
+    </title>
 
     <meta name="description" content="" />
     <meta name="keywords" content="bootstrap, bootstrap4" />
@@ -29,57 +31,59 @@
 
   <body>
     <!-- Start Header/Navigation -->
-    <header class="site-navbar py-3">
+    <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-11 col-xl-2">
-            <a href="index.html"
-              ><img src="logo/KGILogo.png" height="auto" width="150" alt="Logo"
-            /></a>
-          </div>
-          <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav
-              class="site-navigation position-relative text-right"
-              role="navigation"
-            >
-              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li class="has-children">
-                  <a href="services.html">Products</a>
-                  <ul class="dropdown">
-                    <li>
-                      <a href="#">Logistics Services</a>
-                      <!-- <li class="has-children">
-                        <a href="services.html">Services</a>
-                        <ul class="dropdown">
-                          <li><a href="#">Logistics Services</a></li>
-                        </ul>
-                      </li> -->
-                    </li>
-                    <li><a href="#">Trucking Services</a></li>
-                    <li><a href="#">Storage & Warehousing</a></li>
-                    <li><a href="#">Customs Clearance</a></li>
-                    <li><a href="#">Third-Party Cooperation</a></li>
-                  </ul>
-                </li>
+        <a class="navbar-brand" href="index.html">
+          <img src="logo/KGILogo.png" width="200" alt="" />
+        </a>
 
-                <li><a href="contact.html">Contact Us</a></li>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsFurni"
+          aria-controls="navbarsFurni"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsFurni">
+          <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="navigation"
+                data-bs-toggle="dropdown"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <a class="dropdown-item" href="contact.html"
+                  >Charcoal and Biomass</a
+                >
+                <a class="dropdown-item" href="#">Spices</a>
+                <a class="dropdown-item" href="#">Livestock</a>
+                <a class="dropdown-item" href="#">Peanuts</a>
               </ul>
-            </nav>
-          </div>
-
-          <div
-            class="d-inline-block d-xl-none ml-md-0 mr-auto py-3"
-            style="position: relative; top: 3px"
-          >
-            <a href="#" class="site-menu-toggle js-menu-toggle text-white"
-              ><span class="icon-menu h3"></span
-            ></a>
-          </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
+    </nav>
+    <!-- End Header/Navigation -->
 
     <!-- Start Hero Section -->
     <div class="hero">
@@ -87,14 +91,15 @@
         <div class="row justify-content-between">
           <div class="col-lg-5">
             <div class="intro-excerpt">
-              <!-- <h1>General Trading Company</h1> -->
-              <h2>General Trading Company and Agent</h2>
-              <h2>From Indonesia</h2>
+              <h1>Kastara Group Indonesia</h1>
+              <h2>Manufacture and Trading Company</h2>
               <p class="my-4">
-                We are the excellence in Charcoal and Spices Commodities
+                We are Indonesian Group of Company specializes in Agricultural
+                and Charcoal Commodities
               </p>
               <p>
-                <a href="about.html" class="btn btn-secondary me-4">About Us</a
+                <a href="about.html" class="btn btn-secondary me-4 mb-md-0"
+                  >About Us</a
                 ><a href="products.html" class="btn btn-white-outline"
                   >Products</a
                 >
@@ -103,10 +108,7 @@
           </div>
           <div class="col-lg-7">
             <div class="hero-img-wrap">
-              <img
-                src="images/Products/CHARCOAL/PNG/shisha_2.png"
-                class="img-fluid"
-              />
+              <img src="images/charcoal/PNG/shisha_2.png" class="img-fluid" />
             </div>
           </div>
         </div>
@@ -259,8 +261,8 @@
           <div class="col-lg-5">
             <div class="img-wrap">
               <img
-                src="images/Shipping/File 23.jpg"
-                alt="Image"
+                src="images/why-choose-us-img.jpg"
+                alt="images"
                 class="img-fluid"
               />
             </div>
@@ -453,55 +455,45 @@
     <!-- End We Help Section -->
 
     <!-- Start Popular Product -->
+    <!-- <div class="product-item-sm d-flex">
+      <img src="images/djp.svg.png" width="100" />
+      <div class="thumbnail"></div>
+      <div class="pt-3">
+        <h3>Charcoal and Biomass</h3>
+        <p>Charcoal Summary description</p>
+        <p><a href="#">Read More</a></p>
+      </div>
+    </div> -->
     <div class="popular-product">
       <div class="container">
-        <div class="row">
-          <h2 class="section-title text-center mb-5">Category Products</h2>
-          <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-            <div class="product-item-sm d-flex">
-              <div class="thumbnail">
-                <img
-                  src="images/Products/CHARCOAL/PNG/shisha_1.png"
-                  alt="Image"
-                  class="img-fluid"
-                />
-              </div>
-              <div class="pt-3">
-                <h3>Charcoal and Biomass</h3>
-                <p>Charcoal Summary description</p>
-                <p><a href="#">Read More</a></p>
-              </div>
-            </div>
+        <div class="row align-items-center">
+          <h2 class="section-title text-center mb-5">Registered On</h2>
+          <div class="col-6 col-md-4 mb-md-0">
+            <a class="product-item align-items-center">
+              <img
+                src="images/djp.svg.png"
+                width="100px"
+                class="img-fluid product-thumbnail"
+              />
+            </a>
           </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-            <div class="product-item-sm d-flex">
-              <div class="thumbnail">
-                <img
-                  src="images/Products/SPICES/PNG/spices_1.png"
-                  alt="Image"
-                  class="img-fluid"
-                />
-              </div>
-              <div class="pt-3">
-                <h3>Spices</h3>
-                <p>Spices Summary description</p>
-                <p><a href="#">Read More</a></p>
-              </div>
-            </div>
+          <div class="col-6 col-md-3 mb-md-0">
+            <a class="product-item">
+              <img
+                src="images/kemenkumham.png"
+                width="150px"
+                class="img-fluid product-thumbnail"
+              />
+            </a>
           </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-            <div class="product-item-sm d-flex">
-              <div class="thumbnail">
-                <img src="images/product-3.png" alt="Image" class="img-fluid" />
-              </div>
-              <div class="pt-3">
-                <h3>Other Commodites Products</h3>
-                <p>Other Commodites description</p>
-                <p><a href="#">Read More</a></p>
-              </div>
-            </div>
+          <div class="col-6 col-md-4 mb-md-0">
+            <a class="product-item">
+              <img
+                src="images/oss.svg"
+                width=""
+                class="img-fluid product-thumbnail"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -709,7 +701,7 @@
       <div class="container relative">
         <div class="sofa-img">
           <img
-            src="images/Products/CHARCOAL/PNG/bbq_2.png"
+            src="images/charcoal/PNG/bbq_2.png"
             alt="Image"
             class="img-fluid"
             width="300"
