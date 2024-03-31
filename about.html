@@ -13,6 +13,10 @@
       Kastara Group Indonesia &mdash; Agricultural and Charcoal Trading Company
     </title>
 
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/floating-wpp.css" />
+    <script type="text/javascript" src="js/floating-wpp.js"></script>
+
     <meta name="description" content="" />
     <meta name="keywords" content="bootstrap, bootstrap4" />
 
@@ -30,6 +34,7 @@
   </head>
 
   <body>
+    <div id="myDiv"></div>
     <!-- Start Header/Navigation -->
     <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container">
@@ -64,18 +69,23 @@
                 id="navbarDropdown"
                 role="navigation"
                 data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
               >
                 Products
               </a>
               <ul class="dropdown-menu">
-                <a class="dropdown-item" href="contact.html"
-                  >Charcoal and Biomass</a
+                <a class="dropdown-item" href="shisha.html">Shisha Charcoal</a>
+                <a class="dropdown-item" href="bbq.html">BBQ Charcoal</a>
+                <a class="dropdown-item" href="sawdust.html"
+                  >Sawdust Charcoal</a
                 >
-                <a class="dropdown-item" href="#">Spices</a>
-                <a class="dropdown-item" href="#">Livestock</a>
-                <a class="dropdown-item" href="#">Peanuts</a>
+                <a class="dropdown-item" href="woodpellet.html">Wood Pellets</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="woodpellet.html"
+                  >Others Charcoal</a
+                >
+                <a class="dropdown-item" href="woodpellet.html"
+                  >Agricultural Commodities</a
+                >
               </ul>
             </li>
             <li class="nav-item">
@@ -569,5 +579,22 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/tiny-slider.js"></script>
     <script src="js/custom.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/floating-wpp.min.js"></script>
+    <link rel="stylesheet" href="css/floating-wpp.min.css" />
+    <script>
+      feather.replace();
+    </script>
+    <script type="text/javascript">
+      $(function () {
+        $("#myDiv").floatingWhatsApp({
+          position: "right",
+          phone: "+6281235861144",
+          message: "",
+          showOnIE: false,
+          buttonImage: '<img src="images/whatsapp.svg" />',
+        });
+      });
+    </script>
   </body>
 </html>
