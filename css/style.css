@@ -998,12 +998,11 @@ a.more {
 }
 
 .accordion i {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .active,
 .accordion:hover {
-  /* background-color: #f1f7f5; */
 }
 .pannel {
   padding: 0 2rem 2.5rem 2rem;
@@ -1014,7 +1013,7 @@ a.more {
 }
 .pannel p {
   color: rgba(0, 0, 0, 0.7);
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.4;
 }
 
