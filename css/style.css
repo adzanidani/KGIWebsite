@@ -273,13 +273,15 @@ a.more {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 .btn.btn-primary {
   background: #333533;
   border-color: #333533;
 }
 .btn.btn-primary:hover {
-  background: #314d43;
-  border-color: #314d43;
+  color: #000;
+  background: #f9bf29;
+  border-color: #f9bf29;
 }
 .btn.btn-secondary {
   color: #2f2f2f;
@@ -348,7 +350,6 @@ a.more {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   margin-bottom: -17.5px;
-  border-radius: 50%;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.3s all ease;
@@ -363,6 +364,58 @@ a.more {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.product-item .icon-cross .btn {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  border-radius: 30px;
+  color: #fff;
+  background: #2f2f2f;
+  border-color: #2f2f2f;
+  display: none; /* Menyembunyikan tombol secara default */
+}
+
+.product-item:hover .btn {
+  display: block; /* Menampilkan tombol ketika item dihover */
+}
+
+.product-item .btn:hover {
+  color: #ffffff;
+  background: #222222;
+  border-color: #222222;
+}
+
+.product-item .btn:active,
+.product-item .btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.product-item .btn.btn-primary {
+  background: #333533;
+  border-color: #333533;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none; /* Menyembunyikan tombol secara default */
+}
+
+.product-item:hover .btn.btn-primary {
+  display: block; /* Menampilkan tombol "Learn More" saat item dihover */
+}
+
+.product-item .btn.btn-primary:hover {
+  background: #000;
+  border-color: #000;
+}
+
 .product-section .product-item:before {
   bottom: 0;
   left: 0;
@@ -377,6 +430,7 @@ a.more {
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
+
 .product-section .product-item:hover .product-thumbnail {
   top: -25px;
 }
@@ -395,7 +449,7 @@ a.more {
 .about-section .imgs-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [27];
+  -ms-grid-columns: (1fr) 27;
   grid-template-columns: repeat(27, 1fr);
   position: relative;
 }
@@ -503,7 +557,7 @@ a.more {
 .we-help-section .imgs-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [27];
+  -ms-grid-columns: (1fr) (27);
   grid-template-columns: repeat(27, 1fr);
   position: relative;
 }
@@ -512,7 +566,7 @@ a.more {
   content: "";
   width: 255px;
   height: 217px;
-  background-image: url("../images/dots-green.svg");
+  background-image: url("../images/dots-yellow.svg");
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-transform: translate(-40%, -40%);

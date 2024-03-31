@@ -1,3 +1,10 @@
+<!-- /*
+* Bootstrap 5
+* Template Name: Furni
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,51 +13,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
-    <link href="logo/KGIShortcut.png" rel="shortcut icon" />
-
-    <title>
-      Kastara Group Indonesia &mdash; Charcoal & Biomass Energy Trading Company
-    </title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        // Add smooth scrolling to all links
-        $("a").on("click", function (event) {
-          // Make sure this.hash has a value before overriding default behavior
-          if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
-
-            // Store hash
-            var hash = this.hash;
-
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $("html, body").animate(
-              {
-                scrollTop: $(hash).offset().top,
-              },
-              100,
-              function () {
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              }
-            );
-          } // End if
-        });
-      });
-    </script>
-
-    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="css/floating-wpp.css" />
-    <script type="text/javascript" src="js/floating-wpp.js"></script>
+    <meta name="author" content="Untree.co" />
+    <link rel="shortcut icon" href="favicon.png" />
 
     <meta name="description" content="" />
     <meta name="keywords" content="bootstrap, bootstrap4" />
-
-    <!-- FEATHER ICONS -->
-    <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -60,16 +27,20 @@
     />
     <link href="css/tiny-slider.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
+    <title>
+      Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites
+      by Untree.co
+    </title>
   </head>
 
   <body>
-    <div id="myDiv"></div>
     <!-- Start Header/Navigation -->
-    <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark">
+    <nav
+      class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
+      arial-label="Furni navigation bar"
+    >
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="logo/KGILogo.png" width="200" alt="" />
-        </a>
+        <a class="navbar-brand" href="index.html">Furni<span>.</span></a>
 
         <button
           class="navbar-toggler"
@@ -88,37 +59,21 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About us</a>
+            <li><a class="nav-link" href="shop.html">Shop</a></li>
+            <li><a class="nav-link" href="about.html">About us</a></li>
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="blog.html">Blog</a></li>
+            <li><a class="nav-link" href="contact.html">Contact us</a></li>
+          </ul>
+
+          <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+            <li>
+              <a class="nav-link" href="#"><img src="images/user.svg" /></a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="navigation"
-                data-bs-toggle="dropdown"
-              >
-                Products
-              </a>
-              <ul class="dropdown-menu active">
-                <a class="dropdown-item" href="shisha.html">Shisha Charcoal</a>
-                <a class="dropdown-item" href="bbq.html">BBQ Charcoal</a>
-                <a class="dropdown-item" href="sawdust.html"
-                  >Sawdust Charcoal</a
-                >
-                <a class="dropdown-item" href="woodpellet.html">Wood Pellets</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="otherscharcoal.html"
-                  >Others Charcoal</a
-                >
-                <a class="dropdown-item" href="agriculturecommodities.html"
-                  >Agricultural Commodities</a
-                >
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact us</a>
+            <li>
+              <a class="nav-link" href="cart.html"
+                ><img src="images/cart.svg"
+              /></a>
             </li>
           </ul>
         </div>
@@ -130,27 +85,24 @@
     <div class="hero">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg">
+          <div class="col-lg-5">
             <div class="intro-excerpt">
-              <h1>Kastara Group Indonesia</h1>
-              <h2>Charcoal & Biomass Energy Trading Company</h2>
-              <p class="my-4">
-                We are Indonesian trading company specialize in charcoal and
-                biomass commodities. Cooperation with related parties to produce
-                a huge quantity with good quality to supply across the world.
+              <h1>
+                Modern Interior <span clsas="d-block">Design Studio</span>
+              </h1>
+              <p class="mb-4">
+                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
               </p>
               <p>
-                <a href="#about-section" class="btn btn-secondary me-4 mb-md-0"
-                  >About Us</a
-                ><a href="#product-section" class="btn btn-white-outline"
-                  >Products</a
-                >
+                <a href="" class="btn btn-secondary me-2">Shop Now</a>
+                <a href="#" class="btn btn-white-outline">Explore</a>
               </p>
             </div>
           </div>
-          <div class="col-lg">
+          <div class="col-lg-7">
             <div class="hero-img-wrap">
-              <img src="images/charcoal/PNG/shisha_2.png" class="img-fluid" />
+              <img src="images/couch.png" class="img-fluid" />
             </div>
           </div>
         </div>
@@ -158,75 +110,82 @@
     </div>
     <!-- End Hero Section -->
 
-    <!-- Start About Section -->
-
-    <div class="about-section" id="about-section">
+    <!-- Start Product Section -->
+    <div class="product-section">
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-5">
-            <h1 class="section-title text-black">About Us</h1>
-            <h2 class="text-black">PT. Kastara Group Indonesia</h2>
-            <p align="justify">
-              Established in 2022, Kastara Group Indonesia is doing both a
-              manufacturing and trading enterprise specializing in the trade of
-              briquette charcoal and biomass energy products sourced from
-              Indonesia. Our primary focus lies in the distribution of
-              export-quality charcoal briquettes and various variety of wooden
-              pellets items. The inception of our company stemmed from a
-              deep-rooted environmental ethos, advocating for the utilization of
-              renewable energy sources like biomass, particularly from coconut
-              waste to address pressing energy and climate concerns.
-              <br /><br />
-              Presently, our trusted partner manufacturer to produce our
-              charcoal standard is having state-of-the-art facility spanning
-              3000 square meters is located in Jombang, East Java-Indonesia.
-              Equipped with high production lines, we boast an average monthly
-              output of 100 tons or approximately 3-4 Container 20", ensuring a
-              steady and reliable supply of top-notch coconut charcoal
-              briquettes and wood pellets. Central to our operational philosophy
-              is an unwaverin commitment to professionalism, punctuality, and
-              adherence to stringent quality and safety to meet our customer
-              standards.
-              <br /><br />
-              In essence, Kastara Group Indonesia is dedicated to delivering
-              excellence in every aspect of our business operations,
-              prioritizing quality and sustainability with our customers and
-              partners as the cornerstones of our mission.
+        <div class="row">
+          <!-- Start Column 1 -->
+          <div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+            <h2 class="mb-4 section-title">Crafted with excellent material.</h2>
+            <p class="mb-4">
+              Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+              velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
             </p>
+            <p><a href="shop.html" class="btn">Explore</a></p>
+          </div>
+          <!-- End Column 1 -->
 
-            <!-- <ul class="list-unstyled custom-list my-4">
-              <li>Donec vitae odio quis nisl dapibus malesuada</li>
-              <li>Donec vitae odio quis nisl dapibus malesuada</li>
-              <li>Donec vitae odio quis nisl dapibus malesuada</li>
-              <li>Donec vitae odio quis nisl dapibus malesuada</li>
-            </ul> -->
-            <p><a href="about.html" class="btn btn-secondary">Learn More</a></p>
+          <!-- Start Column 2 -->
+          <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+            <a class="product-item" href="cart.html">
+              <img
+                src="images/product-1.png"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Nordic Chair</h3>
+              <strong class="product-price">$50.00</strong>
+
+              <span class="icon-cross">
+                <img src="images/cross.svg" class="img-fluid" />
+              </span>
+            </a>
           </div>
-          <div class="col-lg-6 ps-lg-5">
-            <div class="imgs-grid">
-              <div class="grid grid-1">
-                <img src="images/charcoal/c17.jpg" alt="Untree.co" />
-              </div>
-              <div class="grid grid-2">
-                <img src="images/charcoal/c9.jpg" alt="Untree.co" />
-              </div>
-              <div class="grid grid-3">
-                <img src="images/charcoal/c16.jpg" alt="Untree.co" />
-              </div>
-            </div>
+          <!-- End Column 2 -->
+
+          <!-- Start Column 3 -->
+          <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+            <a class="product-item" href="cart.html">
+              <img
+                src="images/product-2.png"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Kruzo Aero Chair</h3>
+              <strong class="product-price">$78.00</strong>
+
+              <span class="icon-cross">
+                <img src="images/cross.svg" class="img-fluid" />
+              </span>
+            </a>
           </div>
+          <!-- End Column 3 -->
+
+          <!-- Start Column 4 -->
+          <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+            <a class="product-item" href="cart.html">
+              <img
+                src="images/product-3.png"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Ergonomic Chair</h3>
+              <strong class="product-price">$43.00</strong>
+
+              <span class="icon-cross">
+                <img src="images/cross.svg" class="img-fluid" />
+              </span>
+            </a>
+          </div>
+          <!-- End Column 4 -->
         </div>
       </div>
     </div>
-
-    <!-- End About Section -->
+    <!-- End Product Section -->
 
     <!-- Start Why Choose Us Section -->
     <div class="why-choose-section">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-6">
-            <h2 class="section-title">Our Shipping Rules</h2>
+            <h2 class="section-title">Why Choose Us</h2>
             <p>
               Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
               velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
@@ -236,18 +195,25 @@
               <div class="col-6 col-md-6">
                 <div class="feature">
                   <div class="icon">
-                    <img
-                      src="images/Icon/truck.svg"
-                      alt="Image"
-                      class="imf-fluid"
-                    />
+                    <img src="images/truck.svg" alt="Image" class="imf-fluid" />
                   </div>
-                  <h3>Ex-works</h3>
+                  <h3>Fast &amp; Free Shipping</h3>
                   <p>
-                    We makes the goods available in our warehouse factory or
-                    another specified location with the responsible from buyer
-                    to covering all transportation costs, risks, and arranging
-                    pickup until destination
+                    Donec vitae odio quis nisl dapibus malesuada. Nullam ac
+                    aliquet velit. Aliquam vulputate.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-6">
+                <div class="feature">
+                  <div class="icon">
+                    <img src="images/bag.svg" alt="Image" class="imf-fluid" />
+                  </div>
+                  <h3>Easy to Shop</h3>
+                  <p>
+                    Donec vitae odio quis nisl dapibus malesuada. Nullam ac
+                    aliquet velit. Aliquam vulputate.
                   </p>
                 </div>
               </div>
@@ -256,17 +222,15 @@
                 <div class="feature">
                   <div class="icon">
                     <img
-                      src="images/Icon/bag.svg"
+                      src="images/support.svg"
                       alt="Image"
                       class="imf-fluid"
                     />
                   </div>
-                  <h3>Free on Board (FOB)</h3>
+                  <h3>24/7 Support</h3>
                   <p>
-                    We responsible for delivering goods to a designated port and
-                    loading them onto a vessel through forwarder with the buyer
-                    assuming responsibility for transportation costs and risks
-                    thereafter.
+                    Donec vitae odio quis nisl dapibus malesuada. Nullam ac
+                    aliquet velit. Aliquam vulputate.
                   </p>
                 </div>
               </div>
@@ -275,36 +239,15 @@
                 <div class="feature">
                   <div class="icon">
                     <img
-                      src="images/Icon/support.svg"
+                      src="images/return.svg"
                       alt="Image"
                       class="imf-fluid"
                     />
                   </div>
-                  <h3>Cost and Freight (CNF)</h3>
+                  <h3>Hassle Free Returns</h3>
                   <p>
-                    We responsible to delivering goods from designated to
-                    destination port including the cost of of the goods and the
-                    freight charges. Once the goods are loaded onto the vessel,
-                    the risk shifts from the seller to the buyer.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-6 col-md-6">
-                <div class="feature">
-                  <div class="icon">
-                    <img
-                      src="images/Icon/return.svg"
-                      alt="Image"
-                      class="imf-fluid"
-                    />
-                  </div>
-                  <h3>Cost, Insurance and Freight (CIF)</h3>
-                  <p>
-                    We responsible to delivering goods from designated to
-                    destination port including the cost of of the goods, freight
-                    charges, and insurance. Once the goods are loaded onto the
-                    vessel, the risk shifts from the seller to the buyer.
+                    Donec vitae odio quis nisl dapibus malesuada. Nullam ac
+                    aliquet velit. Aliquam vulputate.
                   </p>
                 </div>
               </div>
@@ -314,8 +257,8 @@
           <div class="col-lg-5">
             <div class="img-wrap">
               <img
-                src="images/shipping/File 23.jpg"
-                alt="images"
+                src="images/why-choose-us-img.jpg"
+                alt="Image"
                 class="img-fluid"
               />
             </div>
@@ -324,99 +267,6 @@
       </div>
     </div>
     <!-- End Why Choose Us Section -->
-
-    <!-- Start Product Section -->
-    <section class="product-section" id="product-section">
-      <div class="container">
-        <div class="row text-center mb-5">
-          <!-- Start Introduction Column -->
-
-          <h2 class="section-title text-center">
-            Processed with excellent technology and material.
-          </h2>
-          <p class="mb-4 text-center">
-            We strongly strict about the raw materials
-          </p>
-          <p>
-            <a href="otherscharcoal.html" class="btn btn-primary me-4 mb-md-0"
-              >More Charcoal</a
-            ><a href="agriculturecommodities.html" class="btn btn-primary"
-              >Agricultural Products</a
-            >
-          </p>
-
-          <!-- End Introduction Column -->
-
-          <div class="row">
-            <!-- Start Product Columns -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-              <a class="product-item" href="shisha.html">
-                <img
-                  src="images/charcoal/PNG/shisha_2.png"
-                  class="img-fluid product-thumbnail"
-                  width="300px"
-                />
-                <h3 class="product-title mb-5">Shisha Charcoal</h3>
-                <button class="btn btn-primary text-center">Learn More</button>
-              </a>
-            </div>
-            <!-- Repeat for other products -->
-
-            <!-- Start Product Columns -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-              <a class="product-item" href="bbq.html">
-                <img
-                  src="images/charcoal/PNG/bbq_1.png"
-                  class="img-fluid product-thumbnail"
-                  width="280px"
-                />
-                <h3 class="product-title mb-5">BBQ Charcoal</h3>
-                <button class="btn btn-primary text-center">Learn More</button>
-              </a>
-            </div>
-            <!-- Repeat for other products -->
-
-            <!-- Start Product Columns -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-              <a class="product-item" href="sawdust.html">
-                <img
-                  src="images/charcoal/PNG/sawdust2.png"
-                  class="img-fluid product-thumbnail"
-                />
-                <h3 class="product-title mb-5">Sawdust Charcoal</h3>
-                <button class="btn btn-primary text-center">Learn More</button>
-              </a>
-            </div>
-            <!-- Repeat for other products -->
-
-            <!-- Start Product Columns -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-              <a class="product-item" href="woodpellet.html">
-                <img
-                  src="images/charcoal/PNG/bbq_2.png"
-                  class="img-fluid product-thumbnail"
-                  width="280px"
-                />
-                <h3 class="product-title mb-5">Wood Pellets</h3>
-                <button class="btn btn-primary text-center">Learn More</button>
-              </a>
-            </div>
-            <!-- Repeat for other products -->
-            <!-- End Product Columns -->
-          </div>
-        </div>
-        <div class="container text-center">
-          <a
-            href="doc/test.pdf"
-            class="btn btn-secondary text-center"
-            target="_blank"
-          >
-            Download Catalogue
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- End Product Section -->
 
     <!-- Start We Help Section -->
     <div class="we-help-section">
@@ -459,44 +309,61 @@
     </div>
     <!-- End We Help Section -->
 
-    <!-- Start Registered Section -->
-    <div class="untree_co-section">
+    <!-- Start Popular Product -->
+    <div class="popular-product">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-5 mx-auto text-center">
-            <h2 class="section-title">Registered On</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="product-item-sm d-flex">
+              <div class="thumbnail">
+                <img src="images/product-1.png" alt="Image" class="img-fluid" />
+              </div>
+              <div class="pt-3">
+                <h3>Nordic Chair</h3>
+                <p>
+                  Donec facilisis quam ut purus rutrum lobortis. Donec vitae
+                  odio
+                </p>
+                <p><a href="#">Read More</a></p>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="row text-center">
-          <!-- Start Column 1 -->
-          <div class="col-lg-4 col-md-6 col-lg-3 mb-5 mb-md-0">
-            <img
-              src="images/djp.svg.png"
-              class="img-fluid mb-5"
-              width="200px"
-            />
+          <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="product-item-sm d-flex">
+              <div class="thumbnail">
+                <img src="images/product-2.png" alt="Image" class="img-fluid" />
+              </div>
+              <div class="pt-3">
+                <h3>Kruzo Aero Chair</h3>
+                <p>
+                  Donec facilisis quam ut purus rutrum lobortis. Donec vitae
+                  odio
+                </p>
+                <p><a href="#">Read More</a></p>
+              </div>
+            </div>
           </div>
 
-          <!-- Start Column 2 -->
-          <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-            <img
-              src="images/kemenkumham.png"
-              class="img-fluid mb-5"
-              width="250"
-            />
+          <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="product-item-sm d-flex">
+              <div class="thumbnail">
+                <img src="images/product-3.png" alt="Image" class="img-fluid" />
+              </div>
+              <div class="pt-3">
+                <h3>Ergonomic Chair</h3>
+                <p>
+                  Donec facilisis quam ut purus rutrum lobortis. Donec vitae
+                  odio
+                </p>
+                <p><a href="#">Read More</a></p>
+              </div>
+            </div>
           </div>
-          <!-- End Column 2 -->
-
-          <!-- Start Column 3 -->
-          <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-            <img src="images/oss.svg" class="img-fluid mb-5" width="500" />
-          </div>
-          <!-- End Column 3 -->
         </div>
       </div>
     </div>
-    <!-- End Team Section -->
+    <!-- End Popular Product -->
 
     <!-- Start Testimonial Slider -->
     <div class="testimonial-section">
@@ -633,7 +500,7 @@
     <!-- End Testimonial Slider -->
 
     <!-- Start Blog Section -->
-    <!-- <div class="blog-section">
+    <div class="blog-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-6">
@@ -691,22 +558,17 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- End Blog Section -->
 
     <!-- Start Footer Section -->
     <footer class="footer-section">
       <div class="container relative">
         <div class="sofa-img">
-          <img
-            src="images/charcoal/PNG/bbq_2.png"
-            alt="Image"
-            class="img-fluid"
-            width="300"
-          />
+          <img src="images/sofa.png" alt="Image" class="img-fluid" />
         </div>
 
-        <!-- <div class="row">
+        <div class="row">
           <div class="col-lg-8">
             <div class="subscription-form">
               <h3 class="d-flex align-items-center">
@@ -741,14 +603,12 @@
               </form>
             </div>
           </div>
-        </div> -->
+        </div>
 
         <div class="row g-5 mb-5">
           <div class="col-lg-4">
             <div class="mb-4 footer-logo-wrap">
-              <a href="#" class="footer-logo"
-                >Kastara Group Indonesia<span>.</span></a
-              >
+              <a href="#" class="footer-logo">Furni<span>.</span></a>
             </div>
             <p class="mb-4">
               Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
@@ -758,12 +618,12 @@
             </p>
 
             <ul class="list-unstyled custom-social">
-              <!-- <li>
+              <li>
                 <a href="#"><span class="fa fa-brands fa-facebook-f"></span></a>
-              </li> -->
-              <!-- <li>
-                <a href="#"><span cl                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ass="fa fa-brands fa-twitter"></span></a>
-              </li> -->
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-brands fa-twitter"></span></a>
+              </li>
               <li>
                 <a href="#"><span class="fa fa-brands fa-instagram"></span></a>
               </li>
@@ -777,26 +637,22 @@
             <div class="row links-wrap">
               <div class="col-6 col-sm-6 col-md-3">
                 <ul class="list-unstyled">
-                  <li><a href="about.html">About us</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="products.html">Products</a></li>
-                  <li><a href="contact.html">Contact us</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact us</a></li>
                 </ul>
               </div>
 
               <div class="col-6 col-sm-6 col-md-3">
                 <ul class="list-unstyled">
-                  <li><a href="products.html">Charcoal and Biomass</a></li>
-                  <li><a href="products.html">Spices</a></li>
-                  <li><a href="products.html">Coffee and Beans</a></li>
-                  <li><a href="products.html">Fruit</a></li>
-                  <li><a href="products.html">Livestock</a></li>
-                  <li><a href="Others.html">Others</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Knowledge base</a></li>
+                  <li><a href="#">Live chat</a></li>
                 </ul>
               </div>
 
-              <!-- START OTHERS -->
-              <!-- <div class="col-6 col-sm-6 col-md-3">
+              <div class="col-6 col-sm-6 col-md-3">
                 <ul class="list-unstyled">
                   <li><a href="#">Jobs</a></li>
                   <li><a href="#">Our team</a></li>
@@ -811,8 +667,7 @@
                   <li><a href="#">Kruzo Aero</a></li>
                   <li><a href="#">Ergonomic Chair</a></li>
                 </ul>
-              </div> -->
-              <!-- END OTHERS -->
+              </div>
             </div>
           </div>
         </div>
@@ -820,21 +675,24 @@
         <div class="border-top copyright">
           <div class="row pt-4">
             <div class="col-lg-6">
-              <p class="mb-2 text-lg-start">
+              <p class="mb-2 text-center text-lg-start">
                 Copyright &copy;
                 <script>
                   document.write(new Date().getFullYear());
                 </script>
-                . All Rights Reserved. &mdash; PT. Kastara Group Indonesia
+                . All Rights Reserved. &mdash; Designed with love by
+                <a href="https://untree.co">Untree.co</a> Distributed By
+                <a hreff="https://themewagon.com">ThemeWagon</a>
+                <!-- License information: https://untree.co/license/ -->
               </p>
             </div>
 
-            <!-- <div class="col-lg-6 text-center text-lg-end">
+            <div class="col-lg-6 text-center text-lg-end">
               <ul class="list-unstyled d-inline-flex ms-auto">
                 <li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
                 <li><a href="#">Privacy Policy</a></li>
               </ul>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -844,22 +702,5 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/tiny-slider.js"></script>
     <script src="js/custom.js"></script>
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/floating-wpp.min.js"></script>
-    <link rel="stylesheet" href="css/floating-wpp.min.css" />
-    <script>
-      feather.replace();
-    </script>
-    <script type="text/javascript">
-      $(function () {
-        $("#myDiv").floatingWhatsApp({
-          position: "right",
-          phone: "+6281235861144",
-          message: "",
-          showOnIE: false,
-          buttonImage: '<img src="images/whatsapp.svg" />',
-        });
-      });
-    </script>
   </body>
 </html>
