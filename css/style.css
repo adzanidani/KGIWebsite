@@ -292,6 +292,18 @@ a.more {
   background: #f8b810;
   border-color: #f8b810;
 }
+
+.btn.btn-secondary-2 {
+  color: #2f2f2f;
+  background: #f9bf29;
+  border-color: #f9bf29;
+}
+.btn.btn-secondary-2:hover {
+  background: #000;
+  border-color: #000;
+  color: #fff;
+}
+
 .btn.btn-white-outline {
   background: transparent;
   border-width: 2px;
